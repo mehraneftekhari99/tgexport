@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tgexport"
+version = "0.1.0"
+description = "Tool for exporting telegram channels"
+authors = ["Shahriar <mehraneftekhari99@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Telethon = "^1.28.5"
+tqdm = "^4.65.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
