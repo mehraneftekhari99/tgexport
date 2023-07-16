@@ -40,7 +40,7 @@ You also need to register a 3rd-party app in [Telegram API Developer Tools](http
 
 2. Run the script:
    ```
-   poetry run python tgexport.py <Telegram Channel Username>
+   poetry run python tgexport.py --help
    ```
 
 ## Running Tests

@@ -12,6 +12,9 @@ tqdm = "^4.65.0"
 python-dotenv = "^1.0.0"
 
 
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.14.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
