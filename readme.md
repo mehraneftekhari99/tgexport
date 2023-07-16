@@ -1,6 +1,6 @@
 # TGExport
 
-TGExport is a simple Python script to export and save messages from Telegram channels. It uses the Telethon library to interact with the Telegram API.
+TGExport is a simple Python script to export and save messages from Telegram chats. It uses the Telethon library to interact with the Telegram API.
 
 ## Features
 
@@ -42,13 +42,6 @@ You also need to register a 3rd-party app in [Telegram API Developer Tools](http
    ```
    poetry run python tgexport.py --help
    ```
-
-## Running Tests
-
-Run the tests to verify that everything is working correctly:
-```
-poetry run python tests.py
-```
 
 ## Contributing
 
